@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to KK DevOps</h1>
-<h1 align="center"> KK DevOps with AWS NEW BATCH AUG 17TH 7:30 pm IST</h1>
+<h1 align="center"> KK DevOps with AWS NEW BATCH AUG 17TH 7:30 pm IST to 9:30 pm IST</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
