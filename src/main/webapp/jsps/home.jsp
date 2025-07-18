@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to KK DevOps</h1>
-<h1 align="center"> KK DevOps with AWS AND SRE IN TELUGU</h1>
+<h1 align="center"> KK DevOps with AWS AND SRE</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
