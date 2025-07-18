@@ -90,7 +90,7 @@
     <h2>KK DevOps with AWS and SRE in Telugu</h2>
 </header>
 
-<div class="colorful-name">Haribabu</div>
+<div class="colorful-name">Kolla Haribabu</div>
 
 <section>
     <h2>🌐 Server Side IP Address</h2>
