@@ -139,7 +139,7 @@
     <h2>DevOps with AWS and SRE in Telugu</h2>
 </header>
 
-<div class="colorful-name">KollaHaribabu</div>
+<div class="colorful-name">KHDevOps</div>
 
 <main>
     <section>
