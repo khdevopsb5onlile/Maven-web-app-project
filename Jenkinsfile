@@ -45,7 +45,7 @@ node
 
       curl -u mahesh:password \
 --upload-file /var/lib/jenkins/workspace/jio-scripted-way-PL/target/maven-web-application.war \
-"http://13.201.187.101:8080/manager/text/deploy?path=/maven-web-application&update=true"
+"http://3.108.237.200:8080/manager/text/deploy?path=/maven-web-application&update=true"
           
         """
     }
