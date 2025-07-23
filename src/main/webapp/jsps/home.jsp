@@ -4,106 +4,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>KK FUNDA | DevOps in Telugu and ENgLISH</title>
+    <title>KK FUNDA | DevOps in Telugu & English</title>
     <link rel="icon" href="images/kkfunda.jpg">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
     <style>
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f9fc;
-            color: #333;
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f7fa;
+            color: #2c3e50;
         }
 
         header {
-            background-color: #0066cc;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
             color: #fff;
-            padding: 30px 20px;
+            padding: 40px 20px;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
         header h1 {
+            font-size: 2.7rem;
             margin: 0;
-            font-size: 2.5rem;
         }
 
         header h2 {
-            margin: 10px 0 0;
             font-weight: 400;
+            font-size: 1.2rem;
+            margin-top: 10px;
         }
 
         .colorful-name {
+            text-align: center;
             font-size: 2rem;
-            font-weight: bold;
-            background: linear-gradient(to right, red, orange, green, blue, violet);
+            font-weight: 700;
+            margin: 30px 0;
+            background: linear-gradient(to right, #ff416c, #ff4b2b, #1e90ff, #8e2de2);
             -webkit-background-clip: text;
             color: transparent;
-            text-align: center;
-            margin: 20px 0;
         }
 
         main {
-            max-width: 900px;
-            margin: auto;
+            max-width: 960px;
+            margin: 0 auto;
             padding: 20px;
-            background: #fff;
+            background-color: #fff;
             border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
         }
 
         section {
-            margin-bottom: 30px;
+            margin-bottom: 35px;
         }
 
         h2 {
-            color: #0066cc;
-            margin-bottom: 10px;
+            color: #2c5364;
             font-size: 1.5rem;
+            margin-bottom: 12px;
         }
 
         .info-block {
-            background: #f0f7ff;
-            padding: 15px;
+            background: #ecf5ff;
+            padding: 15px 20px;
+            border-left: 5px solid #2c5364;
             border-radius: 8px;
-            margin-bottom: 20px;
+            font-size: 1rem;
+            line-height: 1.6;
         }
 
         .service-link {
             display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #0066cc;
+            margin-top: 15px;
+            padding: 12px 24px;
+            background-color: #2c5364;
             color: #fff;
-            border-radius: 8px;
+            border-radius: 6px;
             text-decoration: none;
-            transition: background 0.3s;
+            font-weight: 600;
+            transition: background 0.3s ease;
         }
 
         .service-link:hover {
-            background-color: #004a99;
+            background-color: #1e3d59;
         }
 
         .contact {
             text-align: center;
+            margin-top: 40px;
         }
 
         .contact img {
-            width: 80px;
+            width: 90px;
             border-radius: 50%;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
         .footer {
             text-align: center;
-            margin: 40px 0 20px;
-            color: #777;
+            padding: 20px 10px;
             font-size: 0.9rem;
+            color: #777;
         }
 
         a {
-            color: #0066cc;
+            color: #2c5364;
         }
 
         a:hover {
@@ -112,15 +119,15 @@
 
         @media (max-width: 600px) {
             header h1 {
-                font-size: 1.8rem;
+                font-size: 2rem;
             }
 
             .colorful-name {
-                font-size: 1.5rem;
+                font-size: 1.4rem;
             }
 
             .service-link {
-                padding: 8px 15px;
+                padding: 10px 18px;
             }
         }
     </style>
@@ -139,9 +146,8 @@
         <h2>🌐 Server Side IP Address</h2>
         <div class="info-block">
             <%
-                String ip = "";
                 InetAddress inetAddress = InetAddress.getLocalHost();
-                ip = inetAddress.getHostAddress();
+                String ip = inetAddress.getHostAddress();
                 out.println("Server Host Name: <strong>" + inetAddress.getHostName() + "</strong><br>");
                 out.println("Server IP Address: <strong>" + ip + "</strong>");
             %>
